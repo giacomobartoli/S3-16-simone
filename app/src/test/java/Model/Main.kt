@@ -16,4 +16,10 @@ class Main {
         }
     }
 
+    fun testingRemoteActors()  {
+
+
+
+    }
+
 }

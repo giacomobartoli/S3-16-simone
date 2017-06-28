@@ -1,4 +1,4 @@
-package RemoteActors2;
+package app.simone;
 
 import android.view.View;
 

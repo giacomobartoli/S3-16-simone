@@ -43,22 +43,24 @@
             android:weightSum="2" >
 
             <Button
+                android:id="@+id/button3"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="#75d4f0"
-                android:textColor="#fff"
                 android:layout_weight="1"
+                android:background="#75d4f0"
+                android:onClick="playVsCpu"
                 android:text="Highscore"
-                android:id="@+id/button3"/>
+                android:textColor="#fff" />
 
             <Button
+                android:id="@+id/button4"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="#FFD700"
-                android:textColor="#fff"
                 android:layout_weight="1"
+                android:background="#FFD700"
+                android:onClick="testConnection"
                 android:text="Settings"
-                android:id="@+id/button4"/>
+                android:textColor="#fff" />
         </LinearLayout>
     </LinearLayout>
 

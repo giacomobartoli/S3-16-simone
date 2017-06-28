@@ -1,4 +1,4 @@
-package pcd.lab11.actors_remote.pingpong;
+package RemoteActors;
 
 import java.io.Serializable;
 

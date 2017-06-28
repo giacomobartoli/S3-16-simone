@@ -1,6 +1,7 @@
 package app.simone;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.graphics.Color;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
@@ -9,6 +10,8 @@ import android.os.Handler;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
+
+import junit.framework.Test;
 
 import Model.GameMessage;
 import Model.PlayerActor;
@@ -141,6 +144,16 @@ public class MainActivity extends AppCompatActivity {
         } else {
            // show();
         }
+    }
+
+    public void playVsCpu(View view){
+        Intent intent=new Intent(this,LoginActivity.class);
+        startActivity(intent);
+    }
+
+    public void testConnection(View view){
+        Intent intent=new Intent(this,TestingRemote.class);
+        startActivity(intent);
     }
 
     private void hide() {

@@ -1,8 +1,7 @@
-package RemoteActors2;
+package app.simone;
 import android.widget.Toast;
 
 import akka.actor.UntypedActor;
-import app.simone.TestingRemote;
 
 public class HappyActor extends UntypedActor {
 	public void onReceive(Object msg) {

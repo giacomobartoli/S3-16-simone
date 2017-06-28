@@ -1,4 +1,4 @@
-package pcd.lab11.actors_remote.pingpong;
+package RemoteActors;
 import akka.actor.*;
 
 public class Pinger extends UntypedActor {

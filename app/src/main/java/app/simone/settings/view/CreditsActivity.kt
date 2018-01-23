@@ -50,6 +50,7 @@ class CreditsActivity : AppCompatActivity() {
                     "Simone is open source! Take a look to our repositories at https://github.com/simoneapp\n\n" +
                     "Built with ❤️ in San Marino 🇸🇲\n\n" +
                     "© " + Calendar.getInstance().get(Calendar.YEAR) + " Simone Dev Team. All rights reserved. \n\n" +
+                    "theme by alby palmieri based on the original 'Il Ballo di Simone' by Giuliano e I Notturni. \n\n" +
                     "THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, " +
                     "INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR " +
                     "PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE " +

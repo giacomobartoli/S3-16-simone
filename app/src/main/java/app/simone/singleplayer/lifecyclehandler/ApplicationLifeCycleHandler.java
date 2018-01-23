@@ -1,4 +1,4 @@
-package app.simone.singleplayer.lifeCycleHandler;
+package app.simone.singleplayer.lifecyclehandler;
 
 import android.app.Activity;
 import android.app.Application;

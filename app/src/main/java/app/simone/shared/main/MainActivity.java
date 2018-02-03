@@ -15,6 +15,7 @@ import com.crashlytics.android.Crashlytics;
 
 import app.simone.R;
 import app.simone.multiplayer.controller.NearbyGameController;
+import app.simone.multiplayer.view.MultiplayerTypeActivity;
 import app.simone.multiplayer.view.nearby.NearbyGameActivity;
 import app.simone.scores.view.ScoreboardActivity;
 import app.simone.settings.controller.SettingsManager;
@@ -66,7 +67,7 @@ public class MainActivity extends FullscreenBaseGameActivity {
                 openActivity(VSCpuActivity.class, R.anim.left_in, R.anim.right_out);
             }
         });
-/*
+
         multiplayerButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -74,8 +75,8 @@ public class MainActivity extends FullscreenBaseGameActivity {
                 openActivity(MultiplayerTypeActivity.class, R.anim.slide_down, R.anim.slide_down_existing);
             }
         });
-*/
-        multiplayerButton.setOnClickListener(new View.OnClickListener() {
+
+  /*      multiplayerButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 //openActivity(MultiplayerTypeActivity.class, R.anim.slide_down, R.anim.slide_down_existing);
@@ -83,6 +84,7 @@ public class MainActivity extends FullscreenBaseGameActivity {
                 openActivity(ComingSoonActivity.class, R.anim.slide_down, R.anim.slide_down_existing);
             }
         });
+   */
       
         connectionButton.setOnClickListener(new View.OnClickListener() {
 

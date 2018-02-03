@@ -47,7 +47,8 @@ open class MultiplayerPagerActivity : AppCompatActivity() {
         viewPager.adapter = MultiplayerPagerAdapter(supportFragmentManager,
                 arrayListOf(
                         FragmentContainer(friendsList, "New match"),
-                        FragmentContainer(fragment, "Invites")
+                        FragmentContainer(fragment, "Invites") ,
+                        FragmentContainer(fragment, "3rd fragment")
                 ))
 
         // Give the TabLayout the ViewPager
